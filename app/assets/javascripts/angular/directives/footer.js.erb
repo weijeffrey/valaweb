@@ -1,0 +1,9 @@
+// directive creates a footer tag, containing everything that is defined for it
+app.directive('footer', function(){
+  return {
+    controller: 'FooterCtrl',
+    restrict: 'E',
+    templateUrl: "<%= asset_path('footer/footer.html') %>",
+    css: "<%= asset_path('stylesheets/footer.css')%>"
+  }
+})

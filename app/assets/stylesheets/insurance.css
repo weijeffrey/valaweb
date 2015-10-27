@@ -1,0 +1,43 @@
+#insurance {
+  background-color: rgb(97, 101, 106);
+  width: 102%;
+  margin-left: -15px;
+}
+
+#insurance h1 {
+  position: relative;
+  color: rgb(218,165,32);
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+#shield {
+  position: relative;
+  height: 500px;
+  margin-top: -170px;
+  margin-left: -100px;
+}
+
+.checkbox {
+  height: 5px;
+}
+
+.checkbox img {
+  height: 150px;
+  vertical-align: center;
+  margin-left: 80px;
+  margin-top: -40px;
+}
+
+#insurance li p{
+  color: rgb(218,165,32);
+  font-size: 23px;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 140%;
+}
+
+#lastHighlight {
+  margin-bottom: 40px;
+}

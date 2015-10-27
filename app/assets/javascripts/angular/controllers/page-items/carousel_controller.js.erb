@@ -1,0 +1,24 @@
+app.controller('CarouselCtrl', ['$scope', '$location', function($scope, $location){
+  $scope.myInterval = 5000;
+  $scope.slides = [
+    {
+      image: "<%= asset_path('hk_off_path_ps.png') %>",
+      headline: "Redefine how parking is done",
+      detail: "Parking can be a whole lot easier and more convenient. VALA!"
+    },
+    {
+      image: "<%= asset_path('Carousel_img.png') %>",
+      headline: "Don't worry about parking.",
+      detail: "VALA provides the best-in-class valet services that allow you to park WHERE-EVER and WHEN-EVER."
+    },
+    {
+      image: "<%= asset_path('charles_car.png') %>",
+      headline: "Enjoy driving and leave the rest to us.",
+      detail: "On request, we can have your car washed, refueled and recharge."
+    }
+  ];
+
+
+
+
+}]);

@@ -1,0 +1,63 @@
+#security_insurance, #security_authentication, #security_storage,  #security_checks {
+  font-family: Lucida Grande;
+}
+
+#security img {
+  width: 105%;
+  height: 550px;
+  margin-left: -30px;
+}
+
+
+#security_insurance img, #security_authentication img, #security_storage img, #security_checks img{
+  width: 265%;
+  margin-left: -50px;
+  position: relative;
+}
+
+#security_insurance h1{
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+#security_authentication h1, #security_storage h1,  #security_checks h1 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+#security_insurance h2, #security_authentication h2, #security_storage h2,  #security_checks h2 {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+#security_authentication ul, #security_storage ul, #security_checks ul  {
+  list-style-type: square;
+  font-size: 35px;
+  color: rgb(218,165,32);
+}
+
+#security_checks li  {
+  margin-top: -20px;
+}
+
+#security_authentication ul h2, #security_storage ul h2, #security_checks ul h2  {
+  color: black;
+}
+
+#security_insurance .security_checkbox img {
+  width: 60%;
+  margin-left: 20px;
+  margin-top: -60px;
+}
+
+#security_insurance .checkbox_text p {
+  font-size: 20px;
+  margin-left: -30px;
+  margin-top: -15px;
+  font-weight: bold;
+}
+
+

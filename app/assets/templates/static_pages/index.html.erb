@@ -1,0 +1,100 @@
+<navbar></navbar>
+
+<div ng-controller="CarouselCtrl" id="slides_control">
+  <div>
+    <carousel interval="myInterval">
+      <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}">
+        <div class="carousel-caption">
+          <h2>{{slide.headline}}</h2>
+          <p>{{slide.detail}}</p>
+        </div>
+      </slide>
+    </carousel>
+  </div>
+</div>
+
+<div class="container-fluid" id="howItWorks">
+  
+  <div class="row col-md-12 top-text">
+    <h2>Parking can be as easy as just a few taps!</h2>
+    <p>See how it works!</p>
+    <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+  </div>
+  
+  <div class="row col-md-12" id="pickUp">
+    <img src="<%= asset_path('pickUpScreen.png') %>"  alt=""/>
+    <strong><h1>Choose a destination to drop off your car</h1></strong>
+    <p>Let us know where you want to go and our valet will meet you there when you arrive!</p>
+  </div>
+  
+  <div class="row col-md-12" id="garage">
+    <img src="<%= asset_path('toGarage.png') %>"  alt=""/>
+    <strong><h1>Secured and transparent process.</h1></strong>
+    <p> Authenticated hand-off process and keep you eye on your car towards the carpark <br><br>
+    Every exchange of vehicle is authenticated with a 4 digit pin by both parties. <br><br>
+    Don't worry, you know where your car is from the second you handed her to us.</p>
+  </div>
+
+  <div class="row col-md-12" id="carReturn">
+    <img src="<%= asset_path('returnCar.png') %>"  alt=""/>
+    <strong><h1>Pick up your car when you are ready - NOW or Set a time!</h1></strong>
+    <p>When you are ready to have your car back, let us know! 
+    We'll deliver the car back anywhere within your coverage area!<br><br>
+    We recommend that you make the request 15 minutes in advance.</p>
+  </div>
+
+  <div class="container-fluid" id="insurance">
+    <div class="row ">
+      <section class="col-md-12 headline">
+        <strong><h1>We've got you covered!</h1></strong>
+      </section>
+
+      <section class="col-md-4">
+        <img src="<%= asset_path('shield.png') %>" id="shield"/>
+      </section>
+
+      <section class="col-md-offset-1 col-md-6">
+        <ul class="list-unstyled">
+          <li class="col-md-12">
+            <div class="col-md-3 checkbox">
+              <img class="img-responsive" src="<%= asset_path('checkbox.png') %>"/> 
+            </div>
+            <div class="col-md-8">
+              <p>HK$2 million leading industry insurance coverage</p>
+            </div>
+          </li>
+
+          <li class="col-md-12">
+            <div class="col-md-3 checkbox">
+              <img class="img-responsive" src="<%= asset_path('checkbox.png') %>"/> 
+            </div>
+            <div class="col-md-8">
+              <p>Highly experienced valets who passed rigorous background and driving record checks</p>
+            </div>
+          </li>
+
+          <li class="col-md-12">
+            <div class="col-md-3 checkbox">
+              <img class="img-responsive" src="<%= asset_path('checkbox.png') %>"/> 
+            </div>
+            <div class="col-md-8">
+              <p>Secured and Authenticated handoff procedures</p>
+            </div>
+          </li>
+
+          <li class="col-md-12" id="lastHighlight">
+            <div class="col-md-3 checkbox">
+              <img class="img-responsive" src="<%= asset_path('checkbox.png') %>"/> 
+            </div>
+            <div class="col-md-8">
+              <p>24hr surveillanced carparks</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+
+<footer></footer>
+

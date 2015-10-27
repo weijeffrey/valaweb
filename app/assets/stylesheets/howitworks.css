@@ -1,0 +1,68 @@
+#howItWorks {
+  font-family: Lucida Grande;
+}
+
+
+#howItWorks .top-text {
+  color: rgb(218,165,32);
+  text-align: center;
+  background-color: rgb(30, 34, 46);
+  /*font-family: Lucida Grande;*/
+  width: 102%;
+}
+
+
+#howItWorks .top-text h2 {
+  font-size: 30px;
+}
+
+#howItWorks .top-text p, span{
+  font-size: 20px;
+}
+
+
+#pickUp img, #garage img, #carReturn img{
+  width: 105%;
+  margin-left: -30px;
+  position: relative;
+}
+
+#pickUp h1, #garage h1, #carReturn h1 {
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 800px;
+  font-size: 50px;
+  width: 600px;
+}
+
+#pickUp p{
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 800px;
+  font-size: 20px;
+  font-family: Verdana;
+  width: 600px;
+
+}
+
+#carReturn p{
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 800px;
+  font-size: 20px;
+  font-family: Verdana;
+  width: 600px;
+
+}
+
+#garage p{
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 800px;
+  font-size: 20px;
+  font-family: Verdana;
+  width: 600px;
+  
+}
+
+
