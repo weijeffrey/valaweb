@@ -1,0 +1,24 @@
+<navbar></navbar>
+
+<div class="container-fluid faq_content">
+  <div class="row col-md-12" id="faq_top">
+    <h1>Frequently Asked Questions</h1>
+  </div>
+
+  <div ng-controller="AccordCtrl" id="accordion">
+    <uib-accordion close-others="oneAtATime">
+      <uib-accordion-group heading="{{group.title}}" ng-repeat="group in groups" class="faq_body">
+        {{group.content}}
+      </uib-accordion-group>
+    </uib-accordion>
+  </div>
+
+    
+</div>
+
+
+
+
+
+
+<footer></footer>

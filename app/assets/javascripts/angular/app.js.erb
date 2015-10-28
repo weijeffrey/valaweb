@@ -1,4 +1,4 @@
-var app = angular.module('valaWeb', ['ngRoute', 'angular.filter', 'ui.bootstrap']);
+var app = angular.module('valaWeb', ['ngRoute', 'ngAnimate', 'angular.filter', 'ui.bootstrap']);
 
 app.config(['$routeProvider','$locationProvider', function($routeProvider, $locationProvider) {
   // Configure Angular Routes
@@ -10,6 +10,18 @@ app.config(['$routeProvider','$locationProvider', function($routeProvider, $loca
     when('/security', {
       templateUrl: "<%= asset_path('static_pages/security.html')%>",
       controller: 'SecurityCtrl'
+    }).
+    when('/about', {
+      templateUrl: "<%= asset_path('static_pages/about.html')%>",
+      controller: 'AboutCtrl'
+    }).
+    when('/faq', {
+      templateUrl: "<%= asset_path('static_pages/faq.html')%>",
+      controller: 'FAQCtrl'
+    }).
+    when('/partners', {
+      templateUrl: "<%= asset_path('static_pages/partners.html')%>",
+      controller: 'PartnersCtrl'
     })
 
 }]);

@@ -1,0 +1,160 @@
+<navbar></navbar>
+
+
+  <div class="container-fluid">
+
+    <div class="row col-md-12" id="partners">
+      <img class="col-md-12" src="<%= asset_path('partners_ps_dark.png') %>" alt="">
+      <header class="text-center col-md-12" >
+        <strong><h1> On-demand valet parking for your business</h1></strong>
+        <h2>Offer valet parking to enhance customer service!</h2>
+
+        <a class="btn btn-success" id="partnerSignup" type="button" data-toggle="modal" data-target="#partnerSignUpModal" href="">Get Started</a>
+
+      </header>
+    </div>
+
+    <div class="row col-md-12" id="partners_box_2">
+      <img class="col-md-12" src="<%= asset_path('partners.png') %>" alt="">
+
+      <header class="box2_text-center">
+        
+        <div class="title col-md-12">
+          <h1>Why VALA?</h1>
+        </div>
+
+
+        <div class="left_para col-md-4">
+          <strong><h2> Increase table turnover</h2></strong>
+          <h3>Better table management with less customer being late looking for parking spots</h3>
+        </div>
+
+        <div class="mid_para col-md-4">
+          <strong><h2> Expand customer base</h2></strong>
+          <h3>Make your restaurant easily accesible by all customers</h3>
+        </div>
+
+        <div class="right_para col-md-4">
+          <strong><h2> Customer satisfaction</h2></strong>
+          <h3>Enhance customer service by taking care of their hassles</h3>
+        </div>
+
+      </header>
+    </div>
+
+    <div class="row col-md-12" id="partners_testimonials">
+      <img class="col-md-12" src="<%= asset_path('partners_pictures.png') %>" alt="">
+
+      <header class="testimonials_text-center">
+        
+        <div class="title col-md-12">
+          <h1>See what our existing partners are saying!</h1>
+        </div>
+
+
+        <div class="left_para col-md-4">
+          <strong><h2> Great service!</h2></strong>
+          <h3>Much easier to manage our customers.</h3>
+        </div>
+
+        <div class="mid_para col-md-4">
+          <strong><h2> More people are coming</h2></strong>
+          <h3>Parking is a non-issue.</h3>
+        </div>
+
+        <div class="right_para col-md-4">
+          <strong><h2> I'm smiling</h2></strong>
+          <h3>People are happy</h3>
+        </div>
+
+      </header>
+
+    </div>
+
+
+    <div class="row" id="partners_bottom">
+
+      <header class="text-bottom col-md-12" >
+        <h2>Don't let the lack of parking spots hinder your business!<br> Let us take the car, so you can concentrate on the customer</h2>
+        <a class="btn btn-success" id="partnerSignup" type="button" data-toggle="modal" data-target="#partnerSignUpModal" href="">Get Started</a>
+      </header>
+    </div>
+
+
+
+  </div>
+
+<!-- modal for user sign up -->
+<div class="modal fade" id="partnerSignUpModal" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="form">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">Welcome to Vala! Let us know more information and we will be in touch</h4>
+      </div>
+      
+        <div class="modal-body">
+          <form ng-submit="signup()" ng-init="registrationForm">
+              <div class="row form-group">
+                <div class="col-md-offset-1 col-md-4">Company Name^</div>
+                <div class="col-md-7">
+                  <input class="col-md-12 form-control" name="company_name" type="text" ng-model="registrationForm.company_name">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-offset-1 col-md-4">Address^</div>
+                <div class="col-md-7">
+                  <input class="col-md-12 form-control" name="address" type="text" ng-model="registrationForm.address">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-offset-1 col-md-4">Seating^</div>
+                <div class="col-md-7">
+                  <input class="col-md-12 form-control" name="Seating" type="text" ng-model="registrationForm.Seating">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-offset-1 col-md-4">Operation hours^</div>
+                <div class="col-md-7">
+                  <input class="col-md-12 form-control" name="operationHours" type="time" ng-model="registrationForm.operationhours">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-offset-1 col-md-4">Contact Name^</div>
+                <div class="col-md-7">
+                  <input class="col-md-12 form-control" name="contactName" type="text" ng-model="registrationForm.contactName">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-offset-1 col-md-4">Phone Number^</div>
+                <div class="col-md-7">
+                  <input class="col-md-12 form-control" name="phoneNumber" type="text" ng-model="registrationForm.phone_number">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-offset-1 col-md-4">Email^</div>
+                <div class="col-md-7">
+                  <input class="col-md-12 form-control" name="email" type="email" placeholder="j.fu@gmail.com..." ng-model="registrationForm.email">
+                </div>
+              </div>
+
+
+              <div class="row form-group">
+                <h5>^ represents mandatory fields</h5>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#partnerSignUpModal">Submit</button>  
+              </div>
+            
+          </form>
+        </div>
+
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+<footer></footer>

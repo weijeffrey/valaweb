@@ -1,0 +1,101 @@
+#partners img {
+  width: 106%;
+  height: 550px;
+  margin-left: -30px;
+}
+
+#partners .text-center {
+  position: absolute;
+  margin-top: 150px;
+}
+
+#partners .text-center h1 {
+  color: white;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#partners .text-center h2 {
+  color: white;
+  font-size: 30px;
+}
+
+#partners .text-center a {
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: rgb(218,165,32);
+  border: 2px solid rgb(218,165,32);
+  font-family: Lucida Grande;
+  margin-left: -40px;
+}
+
+#partners_box_2 img {
+  width: 106%;
+  margin-left: -30px;
+}
+
+#partners_box_2 .box2_text-center .title {
+  font-size: 30px;
+  font-family: Lucida Grande;
+  text-align: center;
+  margin-top: -370px;
+}
+
+#partners_box_2 .box2_text-center h2 {
+  font-size: 20px;
+  font-family: Lucida Grande;
+  text-align: center;
+  margin-top: -100px;
+}
+
+#partners_box_2 .box2_text-center h3{
+  font-size: 15px;
+  font-family: Lucida Grande;
+  text-align: center;
+}
+
+#partners_testimonials img {
+  width: 106%;
+  margin-left: -30px;
+}
+
+#partners_testimonials .testimonials_text-center .title {
+  font-size: 30px;
+  font-family: Lucida Grande;
+  text-align: center;
+  margin-top: -370px;
+}
+
+#partners_testimonials .testimonials_text-center h2 {
+  font-size: 20px;
+  font-family: Lucida Grande;
+  text-align: center;
+  margin-top: -100px;
+}
+
+#partners_testimonials .testimonials_text-center h3{
+  font-size: 15px;
+  font-family: Lucida Grande;
+  text-align: center;
+}
+
+#partners_bottom {
+  background-color: rgb(30, 34, 46);
+}
+
+#partners_bottom .text-bottom h2 {
+  margin-top: 50px;
+  color: rgb(218,165,32);
+  text-align: center;
+  font-family: Lucida Grande;
+}
+
+#partners_bottom .text-bottom a {
+  margin-left: 710px;
+  background-color: rgb(218,165,32);
+  border: 2px solid rgb(218,165,32);
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+}

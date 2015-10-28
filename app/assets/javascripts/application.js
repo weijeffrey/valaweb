@@ -17,4 +17,5 @@
 //= require angular-bootstrap/ui-bootstrap-tpls
 //= require jquery/dist/jquery
 //= require bootstrap/dist/js/bootstrap
+//= require angular-animate/angular-animate
 //= require_tree .

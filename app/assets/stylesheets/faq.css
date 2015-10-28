@@ -1,0 +1,31 @@
+#faq_top {
+  font-family: Lucida Grande;
+  color: rgb(218,165,32);
+  text-align: center;
+  background-color: rgb(30, 34, 46);
+  width: 102%;
+  height: 200px;
+}
+
+#faq_top h1{
+  padding: 40px 0px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.faq_content {
+  background-color: rgb(30, 34, 46);
+
+}
+
+#accordion {
+  margin-top: 220px;
+  background-color: rgb(30, 34, 46);
+}
+
+.panel-default >.panel-heading {
+  font-family: Lucida Grande;
+  color: rgb(218,165,32);
+  background-color: rgb(97, 101, 106);
+  border: 2px solid white;
+}
