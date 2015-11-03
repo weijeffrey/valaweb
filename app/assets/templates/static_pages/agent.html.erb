@@ -1,0 +1,129 @@
+<navbar></navbar>
+  
+  <div class="container-fluid"> 
+    <div class="row col-md-12" id="agents">
+      <img class="col-md-12" src="<%= asset_path('about_ps_dark.png') %>" alt="">
+      <header class="text-center col-md-12" >
+        <strong><h1> Are you ready to join us and be a part of an exciting new venture?</h1></strong>
+
+        <a class="btn btn-success" id="agentSignup" type="button" data-toggle="modal" data-target="#agentSignUpModal" href="">Let's do it!</a>
+
+      </header>
+    </div>
+
+    <div class="row col-md-12" id="agent_text">
+      <h1>Join us as a VALA agent!</h1>
+
+      <section class="col-md-7">
+      <h2 id="title_benefit">What would you get?</h2>
+
+        <ul class="list-unstyled">
+          <li class="col-md-12">
+            <div class="col-md-3 security_checkbox">
+              <img class="img-responsive" src="<%= asset_path('checkbox.png') %>"/> 
+            </div>
+            <div class="col-md-8 checkbox_text">
+              <p>Potential to earn upwards of HK$100 per hour</p>
+            </div>
+          </li>
+
+          <li class="col-md-12">
+            <div class="col-md-3 security_checkbox">
+              <img class="img-responsive" src="<%= asset_path('checkbox.png') %>"/> 
+            </div>
+            <div class="col-md-8 checkbox_text">
+              <p>Compensation without hidden fees</p>
+            </div>
+          </li>
+
+          <li class="col-md-12">
+            <div class="col-md-3 security_checkbox">
+              <img class="img-responsive" src="<%= asset_path('checkbox.png') %>"/> 
+            </div>
+            <div class="col-md-8 checkbox_text">
+              <p>Flexible working hours</p>
+            </div>
+          </li>
+
+          <li class="col-md-12">
+            <div class="col-md-3 security_checkbox">
+              <img class="img-responsive" src="<%= asset_path('checkbox.png') %>"/> 
+            </div>
+            <div class="col-md-8 checkbox_text">
+              <p>Always be protected with employee compensation</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="col-md-5" id="requirement">
+        <h2 id="title_requirement">What are we looking for?</h2>
+        <ul class="list-unstyled">
+          <li>Be at least 30 years old</li>
+          <li>Valid driving license</li>
+          <li>Minimum three years driving experience</li>
+          <li>No claim driving record in the past 3 years</li>
+          <li>Permanent HK Identity Card Holder</li>
+          <li>Passed Vala’s Background Check</li>
+          <li>Passed Vala’s Custom Driving/Parking Test</li>
+          <li>Friendly and Energertic!</li>
+        </ul>
+      </section>
+
+
+    </div>
+
+    <div class="row col-md-12" id="bottom_contact">
+    <h1>Have a chat with us @ support@vala.com or call 5336 2464</h1>
+      
+    </div>
+
+
+    <!-- modal for user sign up -->
+<div class="modal fade" id="agentSignUpModal" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="form">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel">Welcome to Vala! <br>Let us know more about you and we will be in touch</h4>
+      </div>
+      
+        <div class="modal-body">
+          <form ng-submit="agentsignup()" ng-init="registrationForm">
+              <div class="row form-group">
+                <div class="col-md-offset-1 col-md-4">Name^</div>
+                <div class="col-md-7">
+                  <input class="col-md-12 form-control" name="name" type="text" ng-model="registrationForm.name">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-offset-1 col-md-4">Phone Number^</div>
+                <div class="col-md-7">
+                  <input class="col-md-12 form-control" name="phoneNumber" type="text" ng-model="registrationForm.phone_number">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-offset-1 col-md-4">Email^</div>
+                <div class="col-md-7">
+                  <input class="col-md-12 form-control" name="email" type="email" placeholder="j.fu@gmail.com..." ng-model="registrationForm.email">
+                </div>
+              </div>
+
+              <div class="row form-group buttonGroup">
+                <h5>^ represents mandatory fields</h5>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#partnerSignUpModal">Submit</button>  
+              </div>
+            
+          </form>
+        </div>
+
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  </div>
+
+<footer></footer>

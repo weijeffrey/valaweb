@@ -90,7 +90,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="gridSystemModalLabel">Welcome to Vala! Let us know more information and we will be in touch</h4>
+        <h4 class="modal-title" id="gridSystemModalLabel">Welcome to Vala! <br>Let us know more information and we will be in touch</h4>
       </div>
       
         <div class="modal-body">
@@ -117,9 +117,16 @@
               </div>
 
               <div class="row form-group">
-                <div class="col-md-offset-1 col-md-4">Operation hours^</div>
+                <div class="col-md-offset-1 col-md-4">Operation hours(start)^</div>
                 <div class="col-md-7">
-                  <input class="col-md-12 form-control" name="operationHours" type="time" ng-model="registrationForm.operationhours">
+                  <input class="col-md-12 form-control" name="start_operation_hours" type="time" ng-model="registrationForm.startoperationhours">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-offset-1 col-md-4">Operation hours(end)^</div>
+                <div class="col-md-7">
+                  <input class="col-md-12 form-control" name="end_operation_hours" type="time" ng-model="registrationForm.endoperationhours">
                 </div>
               </div>
 
@@ -145,7 +152,7 @@
               </div>
 
 
-              <div class="row form-group">
+              <div class="row form-group buttonGroup">
                 <h5>^ represents mandatory fields</h5>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                 <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#partnerSignUpModal">Submit</button>  

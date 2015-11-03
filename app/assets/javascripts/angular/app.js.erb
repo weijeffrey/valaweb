@@ -22,6 +22,10 @@ app.config(['$routeProvider','$locationProvider', function($routeProvider, $loca
     when('/partners', {
       templateUrl: "<%= asset_path('static_pages/partners.html')%>",
       controller: 'PartnersCtrl'
+    }).
+    when('/agent', {
+      templateUrl: "<%= asset_path('static_pages/agent.html')%>",
+      controller: 'AgentCtrl'
     })
 
 }]);

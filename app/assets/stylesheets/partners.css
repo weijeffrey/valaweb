@@ -99,3 +99,11 @@
   margin-bottom: 60px;
 
 }
+
+.modal-body .form-group {
+  margin-left: -50px;
+}
+
+.modal-body .buttonGroup {
+  margin-left: 400px;
+}

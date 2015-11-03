@@ -1,0 +1,77 @@
+#agents img {
+  width: 106%;
+  height: 550px;
+  margin-left: -30px;
+}
+
+#agents .text-center {
+  position: absolute;
+  margin-top: 150px;
+}
+
+#agents .text-center h1 {
+  color: white;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#agents .text-center a {
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: rgb(218,165,32);
+  border: 2px solid rgb(218,165,32);
+  font-family: Lucida Grande;
+  margin-left: -40px;
+}
+
+#agent_text h1 {
+  color: rgb(218,165,32);
+  text-shadow: 4px 5px 5px black;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+  margin: 50px 0px;
+}
+
+#agent_text .security_checkbox img {
+  width: 60%;
+  margin-left: 20px;
+  margin-top: -60px;
+}
+
+#agent_text .checkbox_text p {
+  font-size: 20px;
+  margin-left: -30px;
+  margin-top: -15px;
+  font-weight: bold;
+}
+
+#requirement {
+  margin-top: -10px;
+}
+
+#requirement ul {
+  list-style-type: square;
+}
+
+#requirement ul li{
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+#title_benefit {
+  margin-bottom: 50px;
+  margin-left: 70px;
+  text-decoration: underline;
+}
+
+#title_requirement {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: -25px;
+  text-decoration: underline;
+}
+
+#bottom_contact {
+  text-align: center;
+}
